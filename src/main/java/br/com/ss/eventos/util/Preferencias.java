@@ -9,5 +9,7 @@ package br.com.ss.eventos.util;
  * @author Arthur
  */
 public class Preferencias {
-    public static String urlServidor="localhost:9099";    
+  //  public static String urlServidor="localhost:9099";   
+    public static String urlServidor="179.101.231.6:9099";  
+    
 }

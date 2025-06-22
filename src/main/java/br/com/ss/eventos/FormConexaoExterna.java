@@ -707,7 +707,7 @@ public class FormConexaoExterna extends javax.swing.JFrame {
 
                         lbStatus.setText("Conectando " + perfilSwitch.getPass() + "...");
                         lbStatus.setBackground(Color.yellow);
-
+                      
                         accept = new Socket();
                         accept.connect(new InetSocketAddress(perfilSwitch.getIpA(), perfilSwitch.getPortaA()), 2000);
 
